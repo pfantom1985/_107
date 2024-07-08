@@ -5,6 +5,11 @@ public class Main {
         System.out.println(countDigit("asddsgljpk4p1ojrotfgib0811"));
     }
 
+    /**
+     * Count digits in string
+     * @param text input text
+     * @return count of digits
+     */
     public static int countDigit(String text){
         int count = 0;
         char[] array = text.toCharArray();
